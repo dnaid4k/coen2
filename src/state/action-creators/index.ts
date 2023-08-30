@@ -1,5 +1,5 @@
 import { ActionType } from "../action-types";
-import { Action, UpdateCellAction, DeleteCellAction, MoveCellAction, InsertCellBeforeAction, Direction } from "../actions";
+import { UpdateCellAction, DeleteCellAction, MoveCellAction, InsertCellBeforeAction, Direction } from "../actions";
 import { CellTypes } from "../cell";
 
 export const updateCell = (id: string, content: string): UpdateCellAction => {
@@ -12,7 +12,7 @@ export const updateCell = (id: string, content: string): UpdateCellAction => {
     };
 };
 
-export const daleteCell = (id: string): DeleteCellAction => {
+export const deleteCell = (id: string): DeleteCellAction => {
     return {
         type: ActionType.DELETE_CELL,
         payload: id,
