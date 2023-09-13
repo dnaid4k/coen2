@@ -1,8 +1,13 @@
 {
   "name": "@codenv2/local-client",
   "version": "0.1.0",
-  "private": true,
-  "dependencies": {
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "build"
+  ],
+  "devDependencies": {
     "@fortawesome/fontawesome-free": "^5.15.1",
     "@monaco-editor/react": "3.7.5",
     "@testing-library/jest-dom": "^5.17.0",
@@ -29,7 +34,8 @@
     "redux": "4.0.5",
     "redux-thunk": "2.3.0",
     "typescript": "^4.9.5",
-    "web-vitals": "^2.1.4"
+    "web-vitals": "^2.1.4",
+    "@types/prettier": "^2.2.1"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -54,8 +60,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    "@types/prettier": "^2.2.1"
   }
 }
