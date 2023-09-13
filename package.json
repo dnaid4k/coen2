@@ -1,5 +1,5 @@
 {
-  "name": "coen2",
+  "name": "@codenv2/local-client",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
