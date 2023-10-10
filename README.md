@@ -1,4 +1,6 @@
 Part 2 of Online Code Editor
+There are 3 repositories for this project. 2 of code and 1 for deploying (npm for client localhost). all are public. furtonantely in this case i do not have many repositories.
+Project is done with tutorial that told me how to do it and deploy it. tutorial explained few ways of doing it.
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
